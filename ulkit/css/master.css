@@ -44,3 +44,22 @@
     justify-content: center;
     align-items: center;
 }
+
+.nav-container-1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.nav-container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-container-1{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: none;
+        justify-items: center;
+    }
+}
