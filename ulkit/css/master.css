@@ -63,3 +63,28 @@
         justify-items: center;
     }
 }
+
+.large{
+    font-size: large;
+}
+
+/* Producto.html */
+
+.producto-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.producto-1{
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+.producto-info{
+
+}
+
+.sombra{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.03);
+}
+
