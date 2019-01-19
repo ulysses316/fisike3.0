@@ -77,29 +77,49 @@
                     <h4 style="display:inline;">$2,600.00 MXN</h4><i> - Precio normal</i>
                 </span>
                 <section>
-                    <dt>Opcion</dt>
-                    <select autofocus required name="" id="">
-                        <option value="XS">XS</option>
-                        <option value="S">S</option>
-                        <option value="M">M</option>
-                        <option value="L">L</option>
-                        <option value="XL">XL</option>
-                    </select>
-                    <dt>Cantidad</dt>
-                    <select autofocus required name="" id="">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                    </select>
+                    <form >
+                        <div class="uk-margin">
+                            <div uk-form-custom="target: > * > span:first-child">
+                                <dt>Opcion</dt>
+                                <select>
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                                <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                                    <span></span>
+                                    <span uk-icon="icon: chevron-down"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <div uk-form-custom="target: > * > span:first-child">
+                                <dt>Cantidad</dt>
+                                <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                                <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                                    <span></span>
+                                    <span uk-icon="icon: chevron-down"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="uk-button uk-button-danger">Comprar!</button>
+                    </form>
                 </section>
-                <p>Disponibilidad</p>
+                <dt>Disponibilidad</dt>
                 <span>Disponibilidad inmediatamente</span>
-                <p>Chamarrra doble vista</p>
+                <br>
+                <dt>Descripcion</dt>
+                <span>Chamarrra doble vista</span>
                 <p>50% repelente al agua</p>
                 <p>Una vista con acabado impreso digital y la otra vista bordado a un hilo mate (negro)</p>
                 <p>Arte: Sobekcis (Serbia)</p>
                 <p>Hecho e impreso en México</p>
                 <p>HMNOS GNZ - MDL</p>
-                <button class="uk-button uk-button-danger">Comprar!</button>
             </div>
         </div>
     </div>

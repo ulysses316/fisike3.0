@@ -88,3 +88,20 @@
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.03);
 }
 
+@media only screen and (max-width: 600px) {
+    .producto-container{
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+/*Contact.html*/
+
+.margen-superior{
+    padding-top:85px;
+}
+
+.title-map{
+    text-align: center;
+}
